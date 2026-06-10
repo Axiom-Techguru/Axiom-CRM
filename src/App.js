@@ -11,6 +11,8 @@ import UserOperations from "./pages/UserOperations";
 import CRMData from "./pages/CRMData"; // New Import
 import ManageLeads from "./pages/ManageLeads"; // Assuming these exist in your folder
 import Settings from "./pages/Settings";
+import LogMonitoring from "./pages/LogMonitoring"; // New Import
+import PerformanceIndex from "./pages/PerformanceIndex";
 
 export default function App() {
   return (
@@ -31,6 +33,8 @@ export default function App() {
             <Route path="/users" element={<UserOperations />} /> 
             <Route path="/leads" element={<ManageLeads />} />
             <Route path="/crm-data" element={<CRMData />} />
+            <Route path="/logs" element={<LogMonitoring />} />
+            <Route path="/performance/team" element={<PerformanceIndex />} />
             <Route path="/settings" element={<Settings />} />
             
             {/* Catch-all for other links we haven't built yet */}
