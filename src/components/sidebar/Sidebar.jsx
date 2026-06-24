@@ -7,7 +7,7 @@ import {
 
 const Sidebar = () => {
   // State to control the dropdown
-  const [isPerformanceOpen, setIsPerformanceOpen] = useState(true);
+  const [isPerformanceOpen, setIsPerformanceOpen] = useState(false);
 
   const menuItems = [
     { name: 'Dashboard', icon: <LayoutDashboard size={20} />, path: '/' },
