@@ -1,11 +1,11 @@
 import React from 'react';
 import {
   AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
-  PieChart, Pie, Cell, Legend
+  PieChart, Pie, Cell
 } from 'recharts';
 import { 
   Users, TrendingUp, CheckCircle, Target, Phone, Mail, 
-  Calendar, Clock, Star, Filter, Search, ChevronLeft, ChevronRight, Award
+ Star, Filter, Search, ChevronLeft, ChevronRight, Award
 } from 'lucide-react';
 
 // --- Mock Data ---

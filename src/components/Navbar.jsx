@@ -1,5 +1,5 @@
 import React from 'react';
-import { Search, Bell, Settings, User } from 'lucide-react';
+import { Search, Bell, Settings} from 'lucide-react';
 
 const Navbar = () => {
   return (

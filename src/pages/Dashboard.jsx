@@ -1,6 +1,6 @@
 import React from 'react';
 import { 
-  LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, AreaChart, Area,
+  XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, AreaChart, Area,
   PieChart, Pie, Cell, 
 } from 'recharts';
 import { 

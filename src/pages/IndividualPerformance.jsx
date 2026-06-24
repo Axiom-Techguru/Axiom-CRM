@@ -1,9 +1,9 @@
 import React from 'react';
 import { 
-  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend 
+  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer
 } from 'recharts';
 import { 
-  Users, CheckSquare, Target, Calendar, Mail, Phone, Briefcase, 
+  Users, CheckSquare, Target, Calendar,
   Star, Award, TrendingUp, Trophy, Zap, MessageCircle, ChevronDown, Download, Plus, Bell
 } from 'lucide-react';
 

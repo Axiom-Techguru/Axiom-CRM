@@ -3,7 +3,7 @@ import {
   AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer 
 } from 'recharts';
 import { 
-  Database, ShieldAlert, CheckCircle2, Plus, Download, Trash2, 
+CheckCircle2, Plus, Download, Trash2, 
   Activity, RefreshCw, UserPlus, Calendar, Check, X, ArrowRight
 } from 'lucide-react';
 
