@@ -66,6 +66,7 @@ export default function App() {
             <Route path="/settings" element={<Settings />} />
 
             {/* 2. REMAINING Performance Modules (Show Coming Soon) */}
+             <Route path="/performance/sales" element={<ComingSoon title="Sales Performance" />} />
             <Route path="/performance/task" element={<ComingSoon title="Task Management" />} />
             <Route path="/performance/attendance" element={<ComingSoon title="Attendance & Activity" />} />
             <Route path="/performance/support" element={<ComingSoon title="Support Performance" />} />
