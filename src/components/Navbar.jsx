@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="bg-[#1e1e1e] text-white h-16 flex items-center justify-between px-6 border-b border-gray-800 sticky top-0 z-10">
       {/* Left side: Branding or Page Title */}
       <div className="flex items-center gap-4">
-        <span className="text-lg font-semibold tracking-wide">AxiomSales CRM</span>
+        {/* <span className="text-lg font-semibold tracking-wide">AxiomSales CRM</span> */}
       </div>
 
       {/* Center: Search Bar (Optional, matches modern CRM look) */}
