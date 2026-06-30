@@ -1,5 +1,7 @@
+/* src/App.css */
+
 .App {
-  text-align: center;
+  /* text-align: center;  <-- I suggest keeping this commented out for a CRM */
 }
 
 .App-logo {

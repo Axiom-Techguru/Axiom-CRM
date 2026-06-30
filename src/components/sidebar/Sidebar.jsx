@@ -5,7 +5,8 @@ import {
   LineChart, ChevronDown, ChevronRight, Settings, LogOut, X 
 } from 'lucide-react';
 
-const Sidebar = () => {
+// 1. Add { onLogout } as a prop here
+const Sidebar = ({ onLogout }) => {
   // State to control the dropdown
   const [isPerformanceOpen, setIsPerformanceOpen] = useState(false);
 
@@ -74,7 +75,7 @@ const Sidebar = () => {
             <ChevronDown size={18} className={`transition-transform ${isPerformanceOpen ? '' : '-rotate-90'}`} />
           </button>
 
-          {/* SUB-MENU CONTAINER (The box you wanted) */}
+          {/* SUB-MENU CONTAINER */}
           {isPerformanceOpen && (
             <div className="mt-1 mb-2 bg-[#141414] border border-gray-800 rounded-xl py-2 shadow-inner">
               {subMenuItems.map((sub, index) => (
@@ -120,7 +121,11 @@ const Sidebar = () => {
           </div>
         </div>
         
-        <button className="flex items-center gap-4 px-4 py-2 w-full text-gray-500 hover:text-white transition-colors">
+        {/* 2. ADDED onClick={onLogout} TO THIS BUTTON */}
+        <button 
+          onClick={onLogout} 
+          className="flex items-center gap-4 px-4 py-2 w-full text-gray-500 hover:text-white transition-colors"
+        >
           <LogOut size={20} />
           <span className="text-sm font-medium">Logout</span>
         </button>
